@@ -1,0 +1,54 @@
+.about{
+    padding:.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 7rem;
+}
+ .h3 {
+    font-weight: 600;
+    font-size: 32px;
+    height: auto;
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .p{
+      margin-top: 1rem;
+      padding-top: .5rem;
+      font-size: 22px;
+  }
+   .content ul {
+    list-style: none;
+    padding: 0;
+  }
+   .content ul li {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .para{
+      font-size: 20px;
+      font-style: italic;
+  }
+  .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #cc1616;
+  }
+   .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .responsive{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 5rem;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  

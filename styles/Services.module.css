@@ -1,0 +1,90 @@
+.h2{
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 36px;
+    margin-top: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.para{
+      margin-top: 1.6rem;
+      font-weight: 500;
+      margin-bottom: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 26px;
+      text-align: center;
+}
+.icon_box {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 10px 50px 50px rgba(0, 0, 0, 0.1);
+}
+.icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: #cc1616;
+    transition: all 0.3s ease-out 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    transform-style: preserve-3d;
+}
+  .responsive{
+       height: auto;
+       width: auto;
+}
+  .icon::before {
+    position: absolute;
+    content: "";
+    left: -9px;
+    top: -9px;
+    height: 100%;
+    width: 100%;
+    background: #a73939;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px);
+}
+.icon_box h4 {
+    padding-top: .8rem;
+    padding-bottom: .4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 26px;
+    
+}
+.h5 {
+    font-size:28px;
+    padding-top: .2rem;
+    padding-bottom: .8rem;
+}
+.icon_box h4 a {
+    color: #191919;
+}
+.p {
+    line-height: 28px;
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+  .icon_box:hover {
+    background: #cc1616;
+    border-color: #cc1616;
+    padding: 70px 50px 90px 20px;
+}
+  .icon_box:hover .icon {
+    background: #fff;
+}
+ .services .icon-box:hover .icon i {
+    color: #cc1616;
+}
+  .icon::before {
+    background: #eec8c8;
+}
+.icon-box:hover .p {
+    color: rgb(253, 216, 216);
+}

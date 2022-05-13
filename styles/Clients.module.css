@@ -1,0 +1,25 @@
+.clients {
+    background:grey;
+    padding: 12px 0px;
+    margin-top: 2.2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  .img_fluid {
+    width: 50%;
+    filter: grayscale(1);
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 18px 0;
+  }
+  .img_fluid:hover {
+    filter: none;
+    transform: scale(1.1);
+   
+  }
+  @media (max-width: 768px) {
+    .img_fluid {
+      width: 40%;
+    }
+  }
+  

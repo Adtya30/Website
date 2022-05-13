@@ -1,0 +1,38 @@
+.cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5));
+    background:url("../public//img/cta-bg.jpg") fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .h3 {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .p{
+      margin-top: 22px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+  }
+  .cta_btn {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 33px;
+    margin-top: 15px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .cta_btn:hover {
+    background: rgb(218, 54, 54);
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: px solid #cc1616;
+  }
